@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee Records</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body>
+    <main class="table" id="customers_table">
+        <section class="table__header">
+            <h1>Echidna Employee Records</h1>
+            <div class="input-group">
+                <input type="search" placeholder="Search Data...">
+                <img src="search.png" alt="">
+            </div>
+        </section>
+        <section class="table__body">
+            <table id="recordsTable">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name </th>
+                        <th>Designation</th>
+                        <th>Department </th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+            <div class="pagination">
+                
+                <button id="prevBtn" onclick="prevPage()">Previous</button>
+                <div id="pageNumbers"></div>
+                <button id="nextBtn" onclick="nextPage()">Next</button>
+            </div>
+        </section>
+    </main>
+    <link rel="stylesheet" type="text/css" href="12-06.css">
+    <script src="12-06.js"></script>
+</body>
+</html>
